@@ -1,0 +1,11 @@
+﻿project-name:input数据预热
+
+Storm UI (sample) :
+192.168.227.29:8801
+storm jar benz-2.6-SNAPSHOT.jar com.jd.payment.risk.benz.qpay.daylimt.DaylimitAmountTopology  ddd
+
+部署：
+/home/hadoop/storm-0.8.2/bin/storm jar ../benz-2.6-SNAPSHOT-jar-with-dependencies.jar com.jd.payment.risk.benz.qpay.daylimt.DaylimitAmountTopologyStarter benz20131120
+
+关闭：
+/home/hadoop/storm-0.8.2/bin/storm kill xxx
